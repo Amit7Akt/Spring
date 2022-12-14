@@ -1,0 +1,24 @@
+package com.amit;
+
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class Exam1 {
+	@SuppressWarnings({ "resource" })
+	public static void main(String[] args) {
+	
+		ApplicationContext context = new FileSystemXmlApplicationContext("beans.xml");
+//		@SuppressWarnings("unused")
+//		Student object = context.getBean("student", Student.class);
+		@SuppressWarnings("unused")
+		Student ojb = context.getBean("amit", Student.class);
+		
+
+		Display obj = context.getBean("display", Display.class);
+		obj.display();
+
+		
+		
+	}
+}

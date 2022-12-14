@@ -1,0 +1,21 @@
+package com.amit;
+
+
+public class Display {
+	public void display(Student obj) {
+		
+		System.out.println("The name of the student is : "+ obj.getStudent_name());
+		System.out.println("The Student is from : "+ obj.getStudent_city());
+		System.out.println("The Student ID is : "+ obj.getStudent_ID());
+		
+		
+	}
+	public void display(Employee obj) {
+		
+		System.out.println("The name of the student is : "+ obj.getEmployee_name());
+		System.out.println("The Student is from : "+ obj.getProject_name());
+		System.out.println("The Student ID is : "+ obj.getEmployee_ud());
+		
+		
+	}
+}

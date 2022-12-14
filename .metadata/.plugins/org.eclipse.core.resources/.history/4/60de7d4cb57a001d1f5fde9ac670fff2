@@ -1,0 +1,25 @@
+package com.amit;
+public class Student {
+	private String Student_name;
+	private String Student_city;
+	private int Student_ID;
+	
+
+	
+	public void setStudent_city(String student_city) {
+		this.Student_city = student_city;
+	}
+
+
+
+	public void setStudent_ID(int student_ID) {
+		Student_ID = student_ID;
+	}
+
+	public void setStudent_name(String student_name) {
+		this.Student_name = student_name;
+	}
+	
+	
+	
+}

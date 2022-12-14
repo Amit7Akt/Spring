@@ -1,0 +1,16 @@
+package com.amit;
+public class Student {
+	private String Student_name;
+	private String Student_city;
+	private int Student_ID;
+	
+
+	public void setStudent_name(String student_name) {
+		this.Student_name = student_name;
+	}
+	
+	public void display() {
+		System.out.println("The name of the Student is:"+ Student_name);
+	}
+	
+}

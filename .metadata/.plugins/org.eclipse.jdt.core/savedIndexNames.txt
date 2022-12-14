@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+C:\Users\Amit.Tiwari\Desktop\whyinterface\.metadata\.plugins\org.eclipse.jdt.core
+2128575829.index
+3267617911.index
+1862576616.index
+4135382836.index
+4192090106.index
+384762394.index
+1865797976.index
+3974177492.index
+1129413776.index
+1123185153.index
+1355242058.index
+275954376.index

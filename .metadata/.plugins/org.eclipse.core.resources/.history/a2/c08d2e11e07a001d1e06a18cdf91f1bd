@@ -1,0 +1,11 @@
+package com.ojectInjection;
+
+public class Student {
+	
+	private MathCheat math_cheat ;
+	public void Cheating() {
+		math_cheat.mathcheat();
+		
+		
+	}
+}

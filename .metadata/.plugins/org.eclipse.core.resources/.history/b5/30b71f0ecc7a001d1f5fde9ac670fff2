@@ -1,0 +1,23 @@
+/*
+
+	Dependency injection using Constructor
+*
+*/
+
+
+package com.amit;
+
+public class Employee {
+	private String employee_name;
+	private String employee_ud;
+	private String project_name;
+	public Employee(String employee_name, String employee_ud, String project_name) {
+		super();
+		this.employee_name = employee_name;
+		this.employee_ud = employee_ud;
+		this.project_name = project_name;
+	}
+	
+	
+	
+}

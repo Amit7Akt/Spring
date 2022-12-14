@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id = "student" class = "com.amit.Student">
+		<property name="Student_name" value = "Amit Kumar Tiwari"></property>
+		<property name="Student_city" value= "New Delhi"></property>
+		<property name="Student_ID" value = "12344"></property>
+	
+</beans>

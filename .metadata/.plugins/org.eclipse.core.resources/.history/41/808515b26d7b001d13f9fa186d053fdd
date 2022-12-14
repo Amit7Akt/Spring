@@ -1,0 +1,8 @@
+package com.ojectInjection;
+
+public class AnotherStudent {
+	MathCheat cheat;
+	public void cheating() {
+		System.out.println("AnotherStudent is cheating");
+	}
+}

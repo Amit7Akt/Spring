@@ -1,0 +1,15 @@
+package com.amit;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class Display {
+	public void display() {
+		ApplicationContext context = new FileSystemXmlApplicationContext("beans.xml");
+		Display obj = context.getBean("display", Display.class);
+		System.out.println("The name of the student is : "+ getStudent_name());
+		System.out.println("The Student is from : "+ getStudent_city());
+		System.out.println("The Student ID is : "+ getStudent_ID());
+		
+	}
+}

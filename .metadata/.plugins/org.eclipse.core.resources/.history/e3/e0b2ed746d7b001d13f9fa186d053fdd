@@ -1,0 +1,21 @@
+/*
+ * Dependency Injection for Objects
+ */
+package com.ojectInjection;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class Main {
+	public static void main(String[] args) {
+	
+		@SuppressWarnings("resource")
+		ApplicationContext context = new FileSystemXmlApplicationContext("beans.xml");
+		Student obj = context.getBean("stu", Student.class);
+		obj.Cheating();
+		
+		ApplicationContext cont = new FileSystemXmlApplicationContext("beans.xml");
+		AnotherStudent object= cont.getBean("anotherStudent", AnotherStudent.class);
+		
+	}
+}

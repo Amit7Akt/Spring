@@ -1,0 +1,22 @@
+package com.amit;
+
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class Main {
+	@SuppressWarnings({ "resource", "unused" })
+	public static void main(String[] args) {
+	
+		ApplicationContext context = new FileSystemXmlApplicationContext("beans.xml");
+		Student object = context.getBean("student", Student.class);
+		Student objecs = context.getBean("amit", Student.class);
+		Display display_object = context.getBean("display", Display.class);
+		Employee empl_obj = context.getBean("employee", Employee.class);
+		display_object.display(objecs);
+		display_object.display(object);
+		System.out.print("****** Employee Details are as Below ********");
+		display_object.display(empl_obj);
+		
+	}
+}

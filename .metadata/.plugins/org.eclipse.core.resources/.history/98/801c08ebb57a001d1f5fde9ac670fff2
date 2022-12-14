@@ -1,0 +1,10 @@
+package com.amit;
+
+public class Display extends Student{
+	public void display() {
+		System.out.println("The name of the student is : "+ getStudent_name());
+		System.out.println("The Student is from : "+ getStudent_city());
+		System.out.println("The name of the student is : "+ getStudent_name());
+		
+	}
+}

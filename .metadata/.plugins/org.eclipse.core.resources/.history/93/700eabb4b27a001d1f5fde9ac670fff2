@@ -1,0 +1,16 @@
+package com.amit;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Exam1 {
+	public static void main(String[] args) {
+		@SuppressWarnings("resource")
+		ApplicationContext obj = new ClassPathXmlApplicationContext("beans.xml");
+		Student object = obj.getBean("student", Student.class);
+		object.display();
+		
+		
+		
+	}
+}

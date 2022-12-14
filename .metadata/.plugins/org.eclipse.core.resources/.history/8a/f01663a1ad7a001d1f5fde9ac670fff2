@@ -1,0 +1,6 @@
+package com.amit;
+
+public class Exam {
+	Student stu = new Student();
+	stu.display();
+}

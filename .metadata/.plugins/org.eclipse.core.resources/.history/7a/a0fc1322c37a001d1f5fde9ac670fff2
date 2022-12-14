@@ -1,0 +1,11 @@
+package com.amit;
+
+
+//hardcoding the dependencies
+public class Exam {
+	public static void main(String[] args) {
+	Student stu = new Student();
+	stu.setStudent_name("amit");
+	stu.display();
+}
+}
